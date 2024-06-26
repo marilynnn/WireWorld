@@ -21,6 +21,6 @@ conductor → electron head if exactly one or two of the neighbouring cells are 
   
 Run:
 
-* go run main.go - for executing
+ ``go run main.go`` - for executing
 
-* go build main.go - for creating .exe
+ ``go build main.go``- for creating .exe
