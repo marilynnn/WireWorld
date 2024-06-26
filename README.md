@@ -1,17 +1,18 @@
 # WireWorld - cellular automata
 
-A Wireworld cell can be in one of four different states, usually numbered 0–3 in software, modeled by colors in the examples here:
+<p>A Wireworld cell can be in one of four different states, usually numbered 0–3 in software, modeled by colors in the examples here:</p>
 
-empty (black),
-electron head (blue),
-electron tail (red),
-conductor (yellow).
-As in all cellular automata, time proceeds in discrete steps called generations (sometimes "gens" or "ticks"). Cells behave as follows:
+<p>empty (black),</p>
+<p>electron head (blue),</p>
+<p>electron tail (red),</p>
+<p>conductor (yellow).</p>
 
-empty → empty,
-electron head → electron tail,
-electron tail → conductor,
-conductor → electron head if exactly one or two of the neighbouring cells are electron heads, otherwise remains conductor
+<p>As in all cellular automata, time proceeds in discrete steps called generations (sometimes "gens" or "ticks"). Cells behave as follows:</p>
+
+<p>empty → empty,</p>
+<p>electron head → electron tail,</p>
+<p>electron tail → conductor,</p>
+<p>conductor → electron head if exactly one or two of the neighbouring cells are electron heads, otherwise remains conductor</p>
 
 -----------------------------------------------------------------------------------------------------------------------------
 
