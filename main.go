@@ -92,6 +92,10 @@ func DrawCell(cell int) int {
 		return conductor
 	case conductor:
 		return head
+	case head:
+		return tail
+	case tail:
+		return empty
 	default:
 		return cell
 	}
