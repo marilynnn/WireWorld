@@ -20,6 +20,7 @@ Installation
 - GoLang 1.22.4 required
   
 Run:
+
 go run main.go - for executing
 
 go build main.go - for creating .exe
