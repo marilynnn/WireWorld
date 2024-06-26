@@ -21,4 +21,5 @@ Installation
   
 Run:
 go run main.go - for executing
+
 go build main.go - for creating .exe
