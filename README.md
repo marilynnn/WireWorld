@@ -1,4 +1,4 @@
-WireWorld - cellular automata
+# WireWorld - cellular automata
 
 A Wireworld cell can be in one of four different states, usually numbered 0–3 in software, modeled by colors in the examples here:
 
@@ -15,12 +15,12 @@ conductor → electron head if exactly one or two of the neighbouring cells are 
 
 -----------------------------------------------------------------------------------------------------------------------------
 
-Installation
+# Installation
 
 - GoLang 1.22.4 required
   
 Run:
 
-go run main.go - for executing
+* go run main.go - for executing
 
-go build main.go - for creating .exe
+* go build main.go - for creating .exe
